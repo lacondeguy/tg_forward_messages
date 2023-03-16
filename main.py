@@ -7,14 +7,14 @@ import asyncio
 api_id = 1111111
 api_hash = '1111b1111111a111111111b1111'
 
-# ID of private channels in telegram, find out here: @username_to_id_bot
+# ID of private group in telegram, find out here: @username_to_id_bot
 chats_id = [-1000000000001, -1000000000002]
 # ID of your channel, find out here: @username_to_id_bot
 my_channel_id = -1000000000003
 
-# Topic ID from 1st channel
+# Topic ID from 1st group
 topic_id_1 = 1000
-# Topic ID from 2nd channel
+# Topic ID from 2nd group
 topic_id_2 = 1000
 
 client = TelegramClient('python_bot', api_id, api_hash)
